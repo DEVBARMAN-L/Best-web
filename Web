@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Gaming World</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>3D Gaming World</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Trailers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <canvas id="bg-canvas"></canvas>
+    <div class="hero-text">
+      <h2>Explore the World of 3D Games</h2>
+      <p>Play. Watch. Discover.</p>
+    </div>
+  </section>
+
+  <section class="games-section">
+    <h2>Top Games</h2>
+    <div class="game-cards">
+      <div class="card">
+        <img src="images/game1.jpg" alt="Game 1" />
+        <h3>Neon Fury</h3>
+      </div>
+      <div class="card">
+        <img src="images/game2.jpg" alt="Game 2" />
+        <h3>Galaxy Hunt</h3>
+      </div>
+      <!-- Add more cards -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 3D Gaming World</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
